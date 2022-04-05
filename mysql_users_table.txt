@@ -1,0 +1,17 @@
+#创建数据库create database
+create database mini_chat;
+#切换数据库
+use mini_chat;
+#创建账号表create users table
+CREATE TABLE IF NOT EXISTS `users`(
+   `user_id` INT(11) NOT NULL AUTO_INCREMENT,
+   `user_name` VARCHAR(30) CHARACTER SET utf8 NOT NULL,
+   `user_password` VARCHAR(20) CHARACTER SET utf8 NOT NULL,
+   `user_nickname` VARCHAR(20) CHARACTER SET utf8 NOT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+#添加3个账号add three users to table
+insert into users values(0,'user4','1','TOM');
+insert into users values(0,'user5','1','JERRY');
+insert into users values(0,'user6','1','MICKEY');
+select * from users;
