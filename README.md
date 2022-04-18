@@ -1,8 +1,8 @@
 # Hackathon Project -- Peer to Peer Chat Program
 
-This program is designed to function as a multi-user chatroom. To be specific, each user is able to login into the system.  
-After login, user can send messages to all other online users and can recieve message from others.  
-The project is devided into two parts: the client side is operated by GUI, while the server side recieving incomming requests from clients wanting to communicate. 
+ - This program is designed to function as a multi-user chatroom. To be specific, each user is able to login into the system.  
+ - After login, user can send messages to all other online users and can recieve message from others.  
+ - The project is devided into two parts: the client side is operated by GUI, while the server side recieving incomming requests from clients wanting to communicate. 
 
 ## Project Environment 
 * Project Name: P2P Chat Program
